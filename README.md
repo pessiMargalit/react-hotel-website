@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# React Hotel Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the React Hotel Website project! This website allows users to explore the hotel's rooms and suites, learn about the hotel's features, and make reservations. The project showcases the integration of EmailJS for reservation confirmations and leverages various React modules to create a seamless user experience.
 
-## Available Scripts
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [EmailJS Integration](#emailjs-integration)
+7. [Contributing](#contributing)
+8. [License](#license)
 
-In the project directory, you can run:
+## Introduction
+The React Hotel Website is designed to provide users with an interactive and informative experience. Whether you're interested in viewing available rooms, reading about the hotel's amenities, or making a reservation, this website has you covered.
 
-### `npm start`
+## Features
+- **Room Showcase:** Browse through a collection of rooms and suites, each with detailed descriptions and images.
+- **Hotel Information:** Learn about the hotel's facilities, services, and location.
+- **Reservation System:** Place reservations by selecting check-in and check-out dates, and choosing room preferences.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- **React:** A JavaScript library for building user interfaces.
+- **EmailJS:** An integration for sending reservation confirmation emails.
+- **CSS:** Styles the website for an appealing visual experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+1. Clone or download the project from the GitHub repository: https://github.com/pessiMargalit/react-hotel-website.git.
+2. Navigate to the project directory in your terminal.
+3. Install project dependencies using the command:
+   ```sh
+   npm install
+   ```
 
-### `npm test`
+## Usage
+1. After installing dependencies, start the development server with the command:
+   ```sh
+   npm start
+   ```
+2. Open your web browser and go to `http://localhost:3000` to access the website.
+3. Explore the various sections of the website, such as room listings, hotel details, and reservation forms.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## EmailJS Integration
+The React Hotel Website seamlessly integrates with EmailJS to facilitate the sending of reservation confirmation emails to users. When users successfully submit reservation requests through the website, EmailJS handles the email delivery.
 
-### `npm run build`
+## Contributing
+Contributions to the React Hotel Website project are encouraged. If you encounter any issues or have ideas for enhancements, please open a GitHub issue or submit a pull request.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+The project is licensed under the MIT License.
