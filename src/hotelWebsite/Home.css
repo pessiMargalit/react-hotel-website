@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+.header
+{
+  height:100vh;
+  width:100vw;
+  background-size:cover;
+}
+
+
+#p{
+    font-family: 'Tangerine', serif;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+    padding-top:20%;
+    font-size: 20vh;
+}
+
+
+#roomsSection,#suitesSection{
+  margin:10vh;
+  margin-right: 20vw;
+  margin-left: 20vw;
+}  
+#suitesSection{
+  clear: both;
+  padding-top: 10vh;
+}
+       
+#roomsImg,#suiteImg{
+  cursor: pointer;
+}
+
+#homeId{
+  margin-bottom: 10vh;
+
+}
+li{
+  text-align: left;
+  margin-bottom: 2vh;
+}
+span{
+  margin-left: 1vw;
+}
+#amenities{
+  clear: both;  
+  padding-left: 35%;
+  margin-top: 4vh;
+}
+#iconsDiv{
+    border-color: #9784719f;
+  border-top: 0.2vh;
+  border-style: solid;
+  padding: 8vh;
+}

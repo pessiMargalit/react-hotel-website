@@ -1,0 +1,15 @@
+#resevationModal,.svg{
+    color: rgb(0, 0, 0);
+}
+#imgResevationModal{
+   width:16vw;
+   height: 22vh;
+   background:  linear-gradient(rgba(49, 43, 41, 0.5), rgba(70, 29, 10, 0.5));
+}
+img:hover{
+    opacity: 1;
+    transform: scale(1);
+} 
+#checkOutBtn{
+    text-align: center;
+}

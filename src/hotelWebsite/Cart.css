@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+button {
+    color: black;
+    background-color: white;
+    border-color: #978471;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1vh;
+    height: 5vh;
+    margin: 2vh;
+}
+
+button:hover {
+    color: white;
+    background-color:#978471;
+    border-color:#978471;
+}
+h3{
+    text-align: center;
+    font-family: 'Raleway';
+    margin:auto;
+    color: black;
+}
+#emptyH1{
+    margin-top: 3vh;
+}
+#emptyCart{
+    height: 50vh;
+    width: 100vw;
+  padding-top: 10vh;
+}
